@@ -36,6 +36,12 @@
   border-radius: 10px;
   gap: 3px;
   background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+#category .wrapper .category__list .category__list__item:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 #category .wrapper .category__list .category__list__item a {
   font-family: Nuckle;
@@ -66,4 +72,7 @@
   letter-spacing: 0em;
   text-decoration: none;
   color: rgba(30, 30, 30, 1);
+}
+#category .wrapper .category__bottom a:hover{
+  color: #ff0000;
 }
