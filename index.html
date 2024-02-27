@@ -1,128 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nextstore.uz Internet do'koni!</title>
-    <!-- ------ Favicons ------- -->
-    <link rel="icon" href="./public/Logo.svg" />
-    <!-- -----  Main.css ---------- -->
-    <link rel="stylesheet" href="./main.css" />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <!-- ============================= HEADER START ========================== -->
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nextstore.uz Internet do'koni!</title>
+  <!-- ------ Favicons ------- -->
+  <link rel="icon" href="./public/Logo.svg" />
+  <!-- -----  Main.css ---------- -->
+  <link rel="stylesheet" href="./main.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- ============================= HEADER START ========================== -->
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <span></span>
+        <a href="#">
+          <i class="bx bxs-envelope"></i>
+          <span>Aloqa uchun</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
+        </a>
+
+        <ul class="nav__list">
+          <li class="nav__list--item">
+            <button>
+              <i class="bx bx-menu"></i>
+              <span>KATALOG</span>
+            </button>
+          </li>
+
+          <li class="nav__list--item">
+            <div class="search__wrapper">
+              <input type="text" placeholder="Maxsulotlarni izlash" />
+              <button>
+                <i class="bx bx-search"></i>
+              </button>
+            </div>
+          </li>
+
+          <li class="nav__list--item">
+            <button>
+              <a href="#"><i class="bx bx-heart"></i></a>
+            </button>
+            <button>
+              <a href="#"><i class="bx bx-cart"></i></a>
+            </button>
+            <button>
+              <i class="bx bx-user"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ============================= HEADER END ========================== -->
+
+  <main>
+    <!-- Intro section starts -->
+    <section id="intro">
       <div class="container">
-        <div class="header-top">
-          <span></span>
-          <a href="#">
-            <i class="bx bxs-envelope"></i>
-            <span>Aloqa uchun</span>
-          </a>
+        <div class="carousel">
+
+          <!-- Swiper -->
+          <button class="prev"><i class='bx bx-chevron-left'></i></box-icon></button>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/images/bannerintro.svg" alt="banner" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/New_Project.webp" alt="banner" width="1130" height="300" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/birsurtatda.webp" alt="banner" width="1130" height="300" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/Hiaomi.webp" alt="banner" width="1130" height="300" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/12yilkafolat.webp" alt="banner" width="1130" height="300" />
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <button class="next"><i class='bx bxs-chevron-right'></i></i></button>
         </div>
       </div>
-
+    </section>
+    <!-- Intro section ends -->
+    <!-- Kategoriyalar section starts -->
+    <section id="category">
       <div class="container">
-        <nav class="nav">
-          <a href="#" class="nav__logo">
-            <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
-          </a>
+        <div class="wrapper">
+          <h3>Kategoriyalar</h3>
 
-          <ul class="nav__list">
-            <li class="nav__list--item">
-              <button>
-                <i class="bx bx-menu"></i>
-                <span>KATALOG</span>
-              </button>
+          <ul class="category__list">
+            <li class="category__list__item">
+              <img src="./assets/images/smartfonlar.jpg" alt="iphone" width="136" height="136">
+              <a href="#">Smartfonlar</a>
             </li>
 
-            <li class="nav__list--item">
-              <div class="search__wrapper">
-                <input type="text" placeholder="Maxsulotlarni izlash" />
-                <button>
-                  <i class="bx bx-search"></i>
-                </button>
-              </div>
+            <li class="category__list__item">
+              <img src="./assets/images/macbook.png" alt="iphone" width="136" height="136">
+              <a href="#">Kompyuterlar va
+                notebooklar</a>
             </li>
 
-            <li class="nav__list--item">
-              <button>
-                <a href="#"><i class="bx bx-heart"></i></a>
-              </button>
-              <button>
-                <a href="#"><i class="bx bx-cart"></i></a>
-              </button>
-              <button>
-                <i class="bx bx-user"></i>
-              </button>
+            <li class="category__list__item">
+              <img src="./assets/images/televizorlar.png" alt="iphone" width="136" height="136">
+              <a href="#">Televizorlar</a>
+            </li>
+
+            <li class="category__list__item">
+              <img src="./assets/images/watch.png" alt="iphone" width="136" height="136">
+              <a href="#">Aqlli soatlar</a>
+            </li>
+
+            <li class="category__list__item">
+              <img src="./assets/images/airpods.png" alt="iphone" width="136" height="136">
+              <a href="#">Quloqchinlar</a>
+            </li>
+
+            <li class="category__list__item">
+              <img src="./assets/images/kondisaner.png" alt="iphone" width="136" height="136">
+              <a href="#">Konditsioner</a>
+            </li>
+
+            <li class="category__list__item">
+              <img src="./assets/images/artel.png" alt="iphone" width="136" height="136">
+              <a href="#">Sovutkichlar</a>
+            </li>
+
+            <li class="category__list__item">
+              <img src="./assets/images/cleaner.png" alt="iphone" width="136" height="136">
+              <a href="#">Kir yuvish mashinalari</a>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- ============================= HEADER END ========================== -->
-
-    <main>
-      <section id="intro">
-        <div class="container">
-          <div class="carousel">
-            <!-- Swiper -->
-            <button class="prev"><i class='bx bx-chevron-left' ></i></box-icon></button>
-           
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="./assets/images/bannerintro.svg" alt="banner" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./assets/images/New_Project.webp" alt="banner" width="1130" height="300"/>
-                </div>
-                <div class="swiper-slide">
-                  <img src="./assets/images/birsurtatda.webp" alt="banner" width="1130" height="300"/>
-                </div>
-                <div class="swiper-slide">
-                  <img src="./assets/images/Hiaomi.webp" alt="banner" width="1130" height="300"/>
-                </div>
-                <div class="swiper-slide">
-                  <img src="./assets/images/12yilkafolat.webp" alt="banner" width="1130" height="300"/>
-                </div>
-              </div>
-
-              <div class="swiper-pagination"></div>
-            </div>
-            
-            <button class="next"><i class='bx bxs-chevron-right'></i></i></button>
+          <div class="category__bottom">
+            <a href="#">Batafsil</a>
           </div>
+
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".next",
+        prevEl: ".prev",
+      },
+    });
+  </script>
+</body>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 10,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".next",
-          prevEl: ".prev",
-        },
-      });
-    </script>
-  </body>
 </html>
