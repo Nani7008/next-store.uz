@@ -8,11 +8,15 @@
     <link rel="icon" href="./public/Logo.svg" />
     <!-- -----  Main.css ---------- -->
     <link rel="stylesheet" href="./main.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- ============================= HEADER START ========================== -->
     <header>
-
       <div class="container">
         <div class="header-top">
           <span></span>
@@ -25,13 +29,11 @@
 
       <div class="container">
         <nav class="nav">
-
           <a href="#" class="nav__logo">
             <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
           </a>
 
           <ul class="nav__list">
-
             <li class="nav__list--item">
               <button>
                 <i class="bx bx-menu"></i>
@@ -49,7 +51,6 @@
             </li>
 
             <li class="nav__list--item">
-
               <button>
                 <a href="#"><i class="bx bx-heart"></i></a>
               </button>
@@ -59,7 +60,6 @@
               <button>
                 <i class="bx bx-user"></i>
               </button>
-
             </li>
           </ul>
         </nav>
@@ -71,10 +71,58 @@
       <section id="intro">
         <div class="container">
           <div class="carousel">
+            <!-- Swiper -->
+            <button class="prev"><i class='bx bx-chevron-left' ></i></box-icon></button>
+           
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/bannerintro.svg" alt="banner" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/New_Project.webp" alt="banner" width="1130" height="300"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/birsurtatda.webp" alt="banner" width="1130" height="300"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/Hiaomi.webp" alt="banner" width="1130" height="300"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/12yilkafolat.webp" alt="banner" width="1130" height="300"/>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
             
+            <button class="next"><i class='bx bxs-chevron-right'></i></i></button>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+      });
+    </script>
   </body>
 </html>
