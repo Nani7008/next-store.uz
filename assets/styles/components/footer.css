@@ -1,0 +1,89 @@
+footer {
+  background: rgb(230, 212, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 212, 222, 1) 43%,
+    rgba(210, 213, 245, 1) 55%
+  );
+  border-radius: 10px;
+  padding-top: 60px;
+}
+footer .footer__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer__top .footer__top_left {
+  display: flex;
+  flex-direction: row;
+  gap: 74px;
+}
+
+footer .footer__top .top__list {
+  list-style: none;
+}
+
+footer .footer__top .top__list h3 {
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 653;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 20px;
+  color: rgba(30, 30, 30, 1);
+}
+
+footer .footer__top .top__list .top__list__item {
+  margin-top: 20px;
+}
+
+footer .footer__top .top__list .top__list__item a {
+  text-decoration: none;
+  color: rgba(30, 30, 30, 1);
+  text-decoration: none;
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  cursor: pointer;
+}
+
+footer .footer__top .top__list .top__list__item {
+  text-decoration: none;
+  color: rgba(30, 30, 30, 1);
+  text-decoration: none;
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  cursor: pointer;
+}
+
+footer .footer__top .footer__top_right .socials {
+  margin-top: 27px;
+}
+
+footer .footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 38px;
+  padding-bottom: 39px;
+}
+
+footer .footer__bottom p {
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(30, 30, 30, 1);
+}
