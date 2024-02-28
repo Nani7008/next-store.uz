@@ -26,12 +26,20 @@ header .header-top a:hover {
   color: var(--bg-primary-blue);
 }
 
+header nav .burger__menu { 
+  border: none;
+  background-color: transparent;
+  display: none;
+  cursor: pointer;
+}
+
 header .nav {
   display: flex;
   align-items: center;
   width: 100%;
   gap: 230px;
   height: 70px;
+  
 }
 
 header .nav .nav__list {
@@ -126,4 +134,70 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
   background-color: var(--bg-primary-blue);
   color: #fff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  header .header-top {
+    display: none;
+    background-color: #EDF4FE;
+       
+  }
+  header .nav {
+  gap: 30px;
+
+}
+
+header .nav .nav__list {
+  gap: 10px;
+}
+}
+
+
+@media screen and (max-width: 930px) {
+
+
+  header .nav .nav__list .nav__list--item:last-child {
+    display: none;
+  }
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+  header {
+    position: static;
+    border-bottom: none;
+    background-color:  #EDF4FE;;
+    padding: 20px;
+    
+  }
+
+  header .nav .nav__list .nav__list--item:first-child {
+    display: none;
+  }
+  header .nav .burger__menu {
+    display: block;
+  }
+ 
+ 
+  header .nav .nav__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+
+  header .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  header .nav .nav__list .nav__list--item .search__wrapper {
+    width: 320px;
+    height: 46px;
+    
+  }
+
+
 }
