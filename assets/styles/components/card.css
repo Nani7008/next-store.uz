@@ -178,7 +178,6 @@
   letter-spacing: 0em;
   text-decoration: none;
   color: rgba(30, 30, 30, 1);
- 
 }
 
 #middle__popular .wrapper .wrapper__bottom a:hover {
@@ -203,9 +202,8 @@
   list-style: none;
   position: relative;
   cursor: pointer;
-  
 }
- .wrapper .box .top__context {
+.wrapper .box .top__context {
   height: 60px;
 }
 #popular .wrapper .box .box_list:hover {
@@ -291,7 +289,7 @@
 }
 
 #popular .wrapper .wrapper__bottom {
-  width: 1,229px;
+  width: 1, 229px;
   height: 50px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
@@ -386,19 +384,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
   }
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px) {
   #middle__popular .wrapper h4 {
-  font-family: Nuckle;
-  font-size: 16px;
-  font-weight: 653;
-  line-height: 19px;
-  letter-spacing: 0.02em;
-  text-align: left;
-
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 653;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
   }
 
   #middle__popular .wrapper .box {
@@ -411,56 +407,45 @@
     place-content: center;
   }
 
-  
-    #middle__popular .wrapper .wrapper__bottom {
-     display: none;
-      
+  #middle__popular .wrapper .wrapper__bottom {
+    display: none;
   }
-
 }
 
 @media only screen and (max-width: 1250px) {
-#brands .wrapper .box {
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto
- 
-}
-
+  #brands .wrapper .box {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-#brands .wrapper .box {
+  #brands .wrapper .box {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-#brands .wrapper .box .box__card {
-  width: 150px;
-  height: 90px;
-}
-
+  #brands .wrapper .box .box__card {
+    width: 150px;
+    height: 90px;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
   #shops .wrapper .shop {
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto
-   
+    grid-template-rows: auto auto auto auto;
   }
-  
-  }
-  
-  @media only screen and (max-width: 750px) {
+}
+
+@media only screen and (max-width: 750px) {
   #shops .wrapper .shop {
-  
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  
-  #shops .wrapper .shop .shop__lists{
+
+  #shops .wrapper .shop .shop__lists {
     width: 150px;
     height: 90px;
   }
-  
-  }
+}

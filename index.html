@@ -1,786 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nextstore.uz Internet do'koni!</title>
+    <!-- ------ Favicons ------- -->
+    <link rel="icon" href="./public/Logo.svg" />
+    <!-- -----  Main.css ---------- -->
+    <link rel="stylesheet" href="./main.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nextstore.uz Internet do'koni!</title>
-  <!-- ------ Favicons ------- -->
-  <link rel="icon" href="./public/Logo.svg" />
-  <!-- -----  Main.css ---------- -->
-  <link rel="stylesheet" href="./main.css" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
-
-<body>
-  <!-- ============================= HEADER START ========================== -->
-  <header>
-    <div class="container">
-      <div class="header-top">
-        <span></span>
-        <a href="#">
-          <i class="bx bxs-envelope"></i>
-          <span>Aloqa uchun</span>
-        </a>
-      </div>
-    </div>
-
-    <div class="container">
-      <nav class="nav">
-        <div class="nav__left">
-        <button class="burger__menu">
-          <img src="./assets/icons/menu-regular-84.png" alt="menu">
-       </button>
-
-        <a href="#" class="nav__logo">
-          <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
-        </a>
-
-        </div>
-
-        <ul class="nav__list">
-          <li class="nav__list--item">
-            <button>
-              <i class="bx bx-menu"></i>
-              <span>KATALOG</span>
-            </button>
-          </li>
-
-          <li class="nav__list--item">
-            <div class="search__wrapper">
-              <input type="text" placeholder="Maxsulotlarni izlash" />
-              <button>
-                <i class="bx bx-search"></i>
-              </button>
-            </div>
-          </li>
-
-          <li class="nav__list--item">
-            <button>
-              <a href="#"><i class="bx bx-heart"></i></a>
-            </button>
-            <button>
-              <a href="#"><i class="bx bx-cart"></i></a>
-            </button>
-            <button>
-              <i class="bx bx-user"></i>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- ============================= HEADER END ========================== -->
-
-  <main>
-    <!-- Intro section starts -->
-    <section id="intro">
+  <body>
+    <!-- ============================= HEADER START ========================== -->
+    <header>
       <div class="container">
-        <div class="carousel">
+        <div class="header-top">
+          <span></span>
+          <a href="#">
+            <i class="bx bxs-envelope"></i>
+            <span>Aloqa uchun</span>
+          </a>
+        </div>
+      </div>
 
-          <!-- Swiper -->
-          <button class="prev"><i class='bx bx-chevron-left'></i></button>
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__left">
+            <button class="burger__menu">
+              <img src="./assets/icons/menu-regular-84.png" alt="menu" />
+            </button>
 
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./assets/images/bannerintro.svg" alt="banner" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/New_Project.webp" alt="banner" width="1130" height="300" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/birsurtatda.webp" alt="banner" width="1130" height="300" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/Hiaomi.webp" alt="banner" width="1130" height="300" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/12yilkafolat.webp" alt="banner" width="1130" height="300" />
-              </div>
-            </div>
-
-
-            <div class="swiper-pagination"></div>
-
+            <a href="#" class="nav__logo">
+              <img
+                src="./public/Logo.svg"
+                alt="Nextstore.uz Internet do'koni"
+              />
+            </a>
           </div>
 
-          <button class="next"><i class='bx bxs-chevron-right'></i></button>
-        </div>
-      </div>
-    </section>
-    <!-- Intro section ends -->
-    <!-- Kategoriyalar section starts -->
-    <section id="category">
-      <div class="container">
-        <div class="wrapper">
-          <h3>Kategoriyalar</h3>
-
-          <ul class="category__list">
-            <li class="category__list__item">
-              <img src="./assets/images/smartfonlar.jpg" alt="iphone" width="136" height="136">
-              <a href="#">Smartfonlar</a>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <button>
+                <i class="bx bx-menu"></i>
+                <span>KATALOG</span>
+              </button>
             </li>
 
-            <li class="category__list__item">
-              <img src="./assets/images/macbook.png" alt="iphone" width="136" height="136">
-              <a href="#">Kompyuterlar va
-                notebooklar</a>
+            <li class="nav__list--item">
+              <div class="search__wrapper">
+                <input type="text" placeholder="Maxsulotlarni izlash" />
+                <button>
+                  <i class="bx bx-search"></i>
+                </button>
+              </div>
             </li>
 
-            <li class="category__list__item">
-              <img src="./assets/images/televizorlar.png" alt="iphone" width="136" height="136">
-              <a href="#">Televizorlar</a>
-            </li>
-
-            <li class="category__list__item">
-              <img src="./assets/images/watch.png" alt="iphone" width="136" height="136">
-              <a href="#">Aqlli soatlar</a>
-            </li>
-
-            <li class="category__list__item">
-              <img src="./assets/images/airpods.png" alt="iphone" width="136" height="136">
-              <a href="#">Quloqchinlar</a>
-            </li>
-
-            <li class="category__list__item">
-              <img src="./assets/images/kondisaner.png" alt="iphone" width="136" height="136">
-              <a href="#">Konditsioner</a>
-            </li>
-
-            <li class="category__list__item">
-              <img src="./assets/images/artel.png" alt="iphone" width="136" height="136">
-              <a href="#">Sovutkichlar</a>
-            </li>
-
-            <li class="category__list__item">
-              <img src="./assets/images/cleaner.png" alt="iphone" width="136" height="136">
-              <a href="#">Kir yuvish mashinalari</a>
+            <li class="nav__list--item">
+              <button>
+                <a href="#"><i class="bx bx-heart"></i></a>
+              </button>
+              <button>
+                <a href="#"><i class="bx bx-cart"></i></a>
+              </button>
+              <button>
+                <i class="bx bx-user"></i>
+              </button>
             </li>
           </ul>
-          <div class="category__bottom">
-            <a href="#">Batafsil</a>
-          </div>
-
-        </div>
+        </nav>
       </div>
-    </section>
-    <!-- Kategoryilar section ends -->
-    <!-- Eng ko`p sotilgan section starts -->
+    </header>
+    <!-- ============================= HEADER END ========================== -->
 
-    <section id="popular">
-      <div class="container">
-        <div class="wrapper">
-          <div class="context">
-          <h4>Eng ko`p sotilgan</h4>
-          <a href="#">Ko`proq</a>
-        </div>
-          <div class="box">
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>299 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple Airpods Pro
-                  simsiz quloqchin , Oq rangda
-                </p>
-              </div>
-                <h6>1230 ta buyurtma</h6>
+    <main>
+      <!-- Intro section starts -->
+      <section id="intro">
+        <div class="container">
+          <div class="carousel">
+            <!-- Swiper -->
+            <button class="prev"><i class="bx bx-chevron-left"></i></button>
 
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top">
-                <img src="./assets/images/macbook.png" alt="macbook">
-                <h4>16 114 285 so'm</h4>
-                <div class="top__context">
-                <p>Apple Macbook Pro
-                  13" 2.4 2019 Intel core i5
-                  DDR3 8 GB SSD 256 GB
-                </p>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/bannerintro.svg" alt="banner" />
                 </div>
-                <h6>230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top">
-                <img src="./assets/images/macbook.png" alt="macbook">
-                <h4>4 234 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple watch 4 
-                </p>
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/New_Project.webp"
+                    alt="banner"
+                    width="1130"
+                    height="300"
+                  />
                 </div>
-                <h6>543 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 340 000 so’m</h4>
-                <div class="top__context">
-                <p>Robot - tozalagich Xiaomi
-                  Mi Robot 
-                </p>
-              </div>
-                <h6>876 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 345 000 so’m</h4>
-                <div class="top__context">
-                <p>Oynali Fotoaparat
-                  Canon EOS 6D Body 
-                </p>
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/birsurtatda.webp"
+                    alt="banner"
+                    width="1130"
+                    height="300"
+                  />
                 </div>
-                <h6>565 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>299 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple Airpods Pro
-                  simsiz quloqchin , Oq rangda 
-                </p>
-              </div>
-                <h6>1230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>16 114 285 so'm</h4>
-                <div class="top__context">
-                <p>Apple Macbook Pro
-                  13" 2.4 2019 Intel core i5
-                  DDR3 8 GB SSD 256 GB
-                </p>
-              </div>
-                <h6>230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>4 234 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple watch 4 
-                </p>
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/Hiaomi.webp"
+                    alt="banner"
+                    width="1130"
+                    height="300"
+                  />
                 </div>
-                <h6>543 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 340 000 so’m</h4>
-                <div class="top__context">
-                <p>Robot - tozalagich Xiaomi
-                  Mi Robot
-                </p> 
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/12yilkafolat.webp"
+                    alt="banner"
+                    width="1130"
+                    height="300"
+                  />
                 </div>
-               
-                <h6>876 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <div class="heart"><i class='bx bx-heart'></i></div>
-
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 345 000 so’m</h4>
-                <div class="top__context">
-                <p>Oynali Fotoaparat
-                  Canon EOS 6D Body 
-                </p>
               </div>
-                <h6>565 ta buyurtma</h6>
 
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
+              <div class="swiper-pagination"></div>
+            </div>
 
-            </ul>
-          </div>
-          <div class="wrapper__bottom">
-            <a href="#">Ko`proq ko`rish</a>
+            <button class="next"><i class="bx bxs-chevron-right"></i></button>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Eng ko`p sotilgan section ends -->
-    <!-- Middle banner starts -->
-    <section id="middle__banner">
-      <div class="container">
-        <div class="wrapper">
-          <button class="prev"><i class='bx bx-chevron-left'></i></button>
-          <!-- Swiper -->
+      </section>
+      <!-- Intro section ends -->
+      <!-- Kategoriyalar section starts -->
+      <section id="category">
+        <div class="container">
+          <div class="wrapper">
+            <h3>Kategoriyalar</h3>
 
-
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./assets/images/middlebanner.svg" alt="banner" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/texnika.webp" alt="banner" height="240" width="1230" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/middlebanner.svg" alt="banner" />
-              </div>
-
-            </div>
-
-            <div class="swiper-pagination"></div>
-          </div>
-
-          <button class="next"><i class='bx bxs-chevron-right'></i></button>
-
-        </div>
-      </div>
-    </section>
-    <!-- Middle banner ends -->
-
-    <!-- Middle popular -->
-
-    <section id="middle__popular">
-      <div class="container">
-        <div class="wrapper">
-          <div class="context">
-          <h4>Eng ommabop</h4>
-          <a href="#">Ko`proq</a>
-        </div>
-          <div class="box">
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>299 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple Airpods Pro
-                  simsiz quloqchin , Oq rangda
-                </p>
-              </div>
-                <h6>1230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
+            <ul class="category__list">
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/smartfonlar.jpg"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Smartfonlar</a>
               </li>
 
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/macbook.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Kompyuterlar va notebooklar</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/televizorlar.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Televizorlar</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/watch.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Aqlli soatlar</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/airpods.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Quloqchinlar</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/kondisaner.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Konditsioner</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/artel.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Sovutkichlar</a>
+              </li>
+
+              <li class="category__list__item">
+                <img
+                  src="./assets/images/cleaner.png"
+                  alt="iphone"
+                  width="136"
+                  height="136"
+                />
+                <a href="#">Kir yuvish mashinalari</a>
+              </li>
             </ul>
+            <div class="category__bottom">
+              <a href="#">Batafsil</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Kategoryilar section ends -->
+      <!-- Eng ko`p sotilgan section starts -->
 
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top">
-                <img src="./assets/images/macbook.png" alt="macbook">
-                <h4>16 114 285 so'm</h4>
-                <div class="top__context">
-                <p>Apple Macbook Pro
-                  13" 2.4 2019 Intel core i5
-                  DDR3 8 GB SSD 256 GB
-                </p>
+      <section id="popular">
+        <div class="container">
+          <div class="wrapper">
+            <div class="context">
+              <h4>Eng ko`p sotilgan</h4>
+              <a href="#">Ko`proq</a>
+            </div>
+            <div class="box">
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>299 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple Airpods Pro simsiz quloqchin , Oq rangda</p>
+                  </div>
+                  <h6>1230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>16 114 285 so'm</h4>
+                  <div class="top__context">
+                    <p>
+                      Apple Macbook Pro 13" 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                      256 GB
+                    </p>
+                  </div>
+                  <h6>230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>4 234 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple watch 4</p>
+                  </div>
+                  <h6>543 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 340 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Robot - tozalagich Xiaomi Mi Robot</p>
+                  </div>
+                  <h6>876 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 345 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Oynali Fotoaparat Canon EOS 6D Body</p>
+                  </div>
+                  <h6>565 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>299 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple Airpods Pro simsiz quloqchin , Oq rangda</p>
+                  </div>
+                  <h6>1230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>16 114 285 so'm</h4>
+                  <div class="top__context">
+                    <p>
+                      Apple Macbook Pro 13" 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                      256 GB
+                    </p>
+                  </div>
+                  <h6>230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>4 234 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple watch 4</p>
+                  </div>
+                  <h6>543 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 340 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Robot - tozalagich Xiaomi Mi Robot</p>
+                  </div>
+
+                  <h6>876 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <div class="heart"><i class="bx bx-heart"></i></div>
+
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 345 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Oynali Fotoaparat Canon EOS 6D Body</p>
+                  </div>
+                  <h6>565 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="wrapper__bottom">
+              <a href="#">Ko`proq ko`rish</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Eng ko`p sotilgan section ends -->
+      <!-- Middle banner starts -->
+      <section id="middle__banner">
+        <div class="container">
+          <div class="wrapper">
+            <button class="prev"><i class="bx bx-chevron-left"></i></button>
+            <!-- Swiper -->
+
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/middlebanner.svg" alt="banner" />
                 </div>
-                <h6>230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top">
-                <img src="./assets/images/macbook.png" alt="macbook">
-                <h4>4 234 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple watch 4 
-                </p>
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/texnika.webp"
+                    alt="banner"
+                    height="240"
+                    width="1230"
+                  />
                 </div>
-                <h6>543 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 340 000 so’m</h4>
-                <div class="top__context">
-                <p>Robot - tozalagich Xiaomi
-                  Mi Robot 
-                </p>
-              </div>
-                <h6>876 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 345 000 so’m</h4>
-                <div class="top__context">
-                <p>Oynali Fotoaparat
-                  Canon EOS 6D Body 
-                </p>
+                <div class="swiper-slide">
+                  <img src="./assets/images/middlebanner.svg" alt="banner" />
                 </div>
-                <h6>565 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>299 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple Airpods Pro
-                  simsiz quloqchin , Oq rangda 
-                </p>
               </div>
-                <h6>1230 ta buyurtma</h6>
 
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
+              <div class="swiper-pagination"></div>
+            </div>
 
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>16 114 285 so'm</h4>
-                <div class="top__context">
-                <p>Apple Macbook Pro
-                  13" 2.4 2019 Intel core i5
-                  DDR3 8 GB SSD 256 GB
-                </p>
-              </div>
-                <h6>230 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>4 234 000 so’m</h4>
-                <div class="top__context">
-                <p>Apple watch 4 
-                </p>
-                </div>
-                <h6>543 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <i class='bx bx-heart'></i>
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 340 000 so’m</h4>
-                <div class="top__context">
-                <p>Robot - tozalagich Xiaomi
-                  Mi Robot
-                </p> 
-                </div>
-               
-                <h6>876 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-
-            <ul class="box_list">
-              <div class="heart"><i class='bx bx-heart'></i></div>
-
-              <li class="box_list_top"><img src="./assets/images/macbook.png" alt="macbook">
-                <h4>1 345 000 so’m</h4>
-                <div class="top__context">
-                <p>Oynali Fotoaparat
-                  Canon EOS 6D Body 
-                </p>
-              </div>
-                <h6>565 ta buyurtma</h6>
-
-              </li>
-              <li class="box_list_bot">
-                <button>Sotib Olish</button>
-                <i class='bx bx-cart'></i>
-              </li>
-
-            </ul>
-          </div>
-          <div class="wrapper__bottom">
-            <a href="#">Ko`proq ko`rish</a>
+            <button class="next"><i class="bx bxs-chevron-right"></i></button>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Middle popular section ends -->
+      </section>
+      <!-- Middle banner ends -->
 
-    </div>
+      <!-- Middle popular -->
 
-    </section>
-    <!-- Brands section starts -->
-    <section id="brands">
-
-      <div class="container">
-        <div class="wrapper">
-          <h3>Brendlar bo`yicha</h3>
-
-          <div class="box">
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/hp.png" alt="hp"></a>
+      <section id="middle__popular">
+        <div class="container">
+          <div class="wrapper">
+            <div class="context">
+              <h4>Eng ommabop</h4>
+              <a href="#">Ko`proq</a>
             </div>
+            <div class="box">
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>299 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple Airpods Pro simsiz quloqchin , Oq rangda</p>
+                  </div>
+                  <h6>1230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
 
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/acer.png" alt="acer"></a>
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>16 114 285 so'm</h4>
+                  <div class="top__context">
+                    <p>
+                      Apple Macbook Pro 13" 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                      256 GB
+                    </p>
+                  </div>
+                  <h6>230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>4 234 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple watch 4</p>
+                  </div>
+                  <h6>543 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 340 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Robot - tozalagich Xiaomi Mi Robot</p>
+                  </div>
+                  <h6>876 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 345 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Oynali Fotoaparat Canon EOS 6D Body</p>
+                  </div>
+                  <h6>565 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>299 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple Airpods Pro simsiz quloqchin , Oq rangda</p>
+                  </div>
+                  <h6>1230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>16 114 285 so'm</h4>
+                  <div class="top__context">
+                    <p>
+                      Apple Macbook Pro 13" 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                      256 GB
+                    </p>
+                  </div>
+                  <h6>230 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>4 234 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Apple watch 4</p>
+                  </div>
+                  <h6>543 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <i class="bx bx-heart"></i>
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 340 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Robot - tozalagich Xiaomi Mi Robot</p>
+                  </div>
+
+                  <h6>876 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
+
+              <ul class="box_list">
+                <div class="heart"><i class="bx bx-heart"></i></div>
+
+                <li class="box_list_top">
+                  <img src="./assets/images/macbook.png" alt="macbook" />
+                  <h4>1 345 000 so’m</h4>
+                  <div class="top__context">
+                    <p>Oynali Fotoaparat Canon EOS 6D Body</p>
+                  </div>
+                  <h6>565 ta buyurtma</h6>
+                </li>
+                <li class="box_list_bot">
+                  <button>Sotib Olish</button>
+                  <i class="bx bx-cart"></i>
+                </li>
+              </ul>
             </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/asus.png" alt="asus"></a>
+            <div class="wrapper__bottom">
+              <a href="#">Ko`proq ko`rish</a>
             </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/samsung.png" alt="samsung"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/apple.png" alt="apple"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/msi.png" alt="msi"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/mi.png" alt="mi"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/vivo.png" alt="vivo"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/otherbrand.png" alt="otherbrand"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/otherbrand.png" alt="otherbrand"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/otherbrand.png" alt="otherbrand"></a>
-            </div>
-
-            <div class="box__card">
-              <a href="#"><img src="./assets/images/otherbrand.png" alt="otherbrand"></a>
-            </div>
-
           </div>
         </div>
-      </div>
+      </section>
+      <!-- Middle popular section ends -->
 
-    </section>
-    <!-- Brands section ends -->
-    <!-- Mini carousel -->
-    <!-- Middle banner starts -->
-    <section id="middle__banner">
-      <div class="container">
-        <div class="wrapper">
-          <button class="prev"><i class='bx bx-chevron-left'></i></button>
-          <!-- Swiper -->
+      <!-- Brands section starts -->
+      <section id="brands">
+        <div class="container">
+          <div class="wrapper">
+            <h3>Brendlar bo`yicha</h3>
 
-
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./assets/images/middlebanner.svg" alt="banner" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/texnika.webp" alt="banner" height="240" width="1230" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./assets/images/middlebanner.svg" alt="banner" />
+            <div class="box">
+              <div class="box__card">
+                <a href="#"><img src="./assets/images/hp.png" alt="hp" /></a>
               </div>
 
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/acer.png" alt="acer"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/asus.png" alt="asus"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/samsung.png" alt="samsung"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/apple.png" alt="apple"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"><img src="./assets/images/msi.png" alt="msi" /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"><img src="./assets/images/mi.png" alt="mi" /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/vivo.png" alt="vivo"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/otherbrand.png" alt="otherbrand"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/otherbrand.png" alt="otherbrand"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/otherbrand.png" alt="otherbrand"
+                /></a>
+              </div>
+
+              <div class="box__card">
+                <a href="#"
+                  ><img src="./assets/images/otherbrand.png" alt="otherbrand"
+                /></a>
+              </div>
             </div>
-
-            <div class="swiper-pagination"></div>
-          </div>
-
-          <button class="next"><i class='bx bxs-chevron-right'></i></button>
-
-        </div>
-      </div>
-    </section>
-    <!-- Middle banner ends -->
-
-    <!-- Shops section starts -->
-
-    <section id="shops">
-      <div class="container">
-        <div class="wrapper">
-          <h3>Do`konlarimiz</h3>
-          <div class="shop">
-            <div class="shop__lists">
-              <img src="./assets/images/elmakon.png" alt="elmakon">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/texnomart.png" alt="texnomart">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/mediapark.png" alt="mediapark">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/sandiq.png" alt="sandiq">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/goodzone.png" alt="goodzone">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
-            <div class="shop__lists">
-              <img src="./assets/images/otherbrand.png" alt="other">
-            </div>
-
           </div>
         </div>
-      </div>
+      </section>
+      <!-- Brands section ends -->
+      <!-- Mini carousel -->
+      <!-- Middle banner starts -->
+      <section id="middle__banner">
+        <div class="container">
+          <div class="wrapper">
+            <button class="prev"><i class="bx bx-chevron-left"></i></button>
+            <!-- Swiper -->
 
-    </section>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/middlebanner.svg" alt="banner" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/images/texnika.webp"
+                    alt="banner"
+                    height="240"
+                    width="1230"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/middlebanner.svg" alt="banner" />
+                </div>
+              </div>
 
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <button class="next"><i class="bx bxs-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+      <!-- Middle banner ends -->
+
+      <!-- Shops section starts -->
+
+      <section id="shops">
+        <div class="container">
+          <div class="wrapper">
+            <h3>Do`konlarimiz</h3>
+            <div class="shop">
+              <div class="shop__lists">
+                <img src="./assets/images/elmakon.png" alt="elmakon" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/texnomart.png" alt="texnomart" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/mediapark.png" alt="mediapark" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/sandiq.png" alt="sandiq" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/goodzone.png" alt="goodzone" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+
+              <div class="shop__lists">
+                <img src="./assets/images/otherbrand.png" alt="other" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Shops section ends -->
 
     <!-- Footer section starts -->
@@ -788,13 +809,9 @@
     <footer>
       <div class="container">
         <div class="footer__top">
-
           <div class="footer__top_left">
-
             <ul class="top__list">
-
               <h3>Hujjatlar</h3>
-
 
               <li class="top__list__item"><a href="#">Ummumiy shartlar</a></li>
 
@@ -803,13 +820,10 @@
               <li class="top__list__item"><a href="#">Nizom</a></li>
 
               <li class="top__list__item"><a href="#">Guvohnoma</a></li>
-
             </ul>
 
             <ul class="top__list">
-
               <h3>Servis</h3>
-
 
               <li class="top__list__item"><a href="#">Do`konlar</a></li>
 
@@ -820,12 +834,9 @@
               <li class="top__list__item"><a href="#">Qaytarish</a></li>
 
               <li class="top__list__item"><a href="#">Promokodlar</a></li>
-
             </ul>
 
             <ul class="top__list">
-
-
               <h3>Mahsulotlar katalogi</h3>
 
               <li class="top__list__item"><a href="#">Katalog 1</a></li>
@@ -839,72 +850,69 @@
               <li class="top__list__item"><a href="#">Katalog 3</a></li>
 
               <li class="top__list__item"><a href="#">Katalog 3</a></li>
-
             </ul>
           </div>
 
           <div class="footer__top_right">
-
             <ul class="top__list">
-
-
               <h3>Axborot Xizmati</h3>
 
-              <li class="top__list__item"><a href="mailto:contact.@nextstore.uz">contact.@nextstore.uz</a></li>
+              <li class="top__list__item">
+                <a href="mailto:contact.@nextstore.uz">contact.@nextstore.uz</a>
+              </li>
 
-              <li class="top__list__item"><a href="tel:+998 97 712 96 96  ">+998 97 712 96 96 </a><br>
+              <li class="top__list__item">
+                <a href="tel:+998 97 712 96 96  ">+998 97 712 96 96 </a><br />
+              </li>
 
-              <li class="top__list__item"><a href="tel:+998 97 712 96 96  ">+998 97 712 96 96 </a><br>
+              <li class="top__list__item">
+                <a href="tel:+998 97 712 96 96  ">+998 97 712 96 96 </a><br />
+              </li>
 
-              <li class="top__list__item">Sag’bon 186, Olmazor tumani, Toshkent, <br> O`zbekiston </li>
-
+              <li class="top__list__item">
+                Sag’bon 186, Olmazor tumani, Toshkent, <br />
+                O`zbekiston
+              </li>
             </ul>
 
-            <img src="./assets/images/socials.png" alt="socials" class="socials">
-
+            <img
+              src="./assets/images/socials.png"
+              alt="socials"
+              class="socials"
+            />
           </div>
-
         </div>
 
-        <img src=".//assets/images/Line 1.png" alt="line">
-
+        <img src=".//assets/images/Line 1.png" alt="line" />
 
         <div class="footer__bottom">
-
           <p>2022 Nextstore.com</p>
 
           <p>Powered by</p>
-
         </div>
-
+      </div>
     </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Shops section ends -->
-
-  </main>
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 10,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".next",
-        prevEl: ".prev",
-      },
-    });
-  </script>
-</body>
-
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+      });
+    </script>
+  </body>
 </html>

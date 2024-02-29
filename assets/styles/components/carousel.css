@@ -5,18 +5,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 .swiper {
- 
   border-radius: 30px;
   height: 300px;
 }
 
-
 .swiper-slide img {
- 
   object-fit: cover;
 }
 
@@ -39,7 +35,7 @@
 
 .swiper-pagination {
   --swiper-pagination-color: var(--bg-gradient-dark);
-   --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-width: 10px;
   --swiper-pagination-bullet-height: 10px;
 }
 
@@ -47,20 +43,15 @@
   #inro .carousel {
     width: 320px;
     height: 180px;
-   
   }
   .swiper-slide img {
- 
     width: 520px;
     height: 180px;
   }
 
   .swiper {
- 
-    border-radius: 30px;
     height: 180px;
   }
- 
 }
 
 #middle__banner .wrapper {
@@ -73,20 +64,16 @@
   margin-top: 60px;
 }
 
-.swiper { 
-
+.swiper {
   border-radius: 30px;
   height: 266px;
 }
 
-
 .swiper-slide img {
-
   object-fit: cover;
 }
 
 #middle__banner .wrapper button {
-
   width: 42px;
   height: 42px;
   padding: 9px;
@@ -97,19 +84,14 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+}
 
- 
-  }
-  
-  #middle__banner .wrapper button:hover  {
+#middle__banner .wrapper button:hover {
   background-image: var(--bg-gradient-white);
-  
-  }
+}
 
-  @media only screen and (max-width: 750px) {
-    #middle__banner .wrapper {
+@media only screen and (max-width: 750px) {
+  #middle__banner .wrapper {
     display: none;
-    }
-
   }
-  
+}
