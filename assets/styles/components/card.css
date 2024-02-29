@@ -496,14 +496,52 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+
+@media only screen and (max-width: 1250px) {
+  #computers .wrapper .list {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  #computers .wrapper .list .list_item {
+    width: 150px;
+    height: 242px;
+    border-radius: 4px;
+  }
+  #computers .wrapper .list .list_item img {
+    width: 136px;
+    height: 135px;
+  }
+
+  #computers .wrapper .list .list_item h6 {
+    line-height: 16px;
+    font-size: 14px;
+  }
+
+  #computers .wrapper .list .list_item p {
+    line-height: 16px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #computers .wrapper .list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #brands .wrapper .box .box__card {
+    width: 150px;
+    height: 90px;
+  }
+}
+
 /* Computers scc section ends */
 /* Bestsellers scc section starts */
 
 #bestsellers .wrapper {
   margin-bottom: 70px;
 }
-
-
 
 #bestsellers .wrapper h4 {
   font-family: Nuckle;
