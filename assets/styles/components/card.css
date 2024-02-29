@@ -203,6 +203,10 @@
   list-style: none;
   position: relative;
   cursor: pointer;
+  
+}
+ .wrapper .box .top__context {
+  height: 60px;
 }
 #popular .wrapper .box .box_list:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
@@ -380,6 +384,9 @@
   #popular .wrapper .box {
     flex-shrink: 750;
     display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
 }
 
@@ -397,6 +404,11 @@
   #middle__popular .wrapper .box {
     flex-shrink: 750;
     display: flex;
+  }
+
+  #popular .wrapper .box .box_list {
+    display: grid;
+    place-content: center;
   }
 
   
