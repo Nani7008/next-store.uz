@@ -449,3 +449,49 @@
     height: 90px;
   }
 }
+#computers .wrapper .list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  list-style: none;
+  margin-top: 40px;
+}
+
+#computers .wrapper .list .list_item {
+  width: 293px;
+  height: 290px;
+  padding: 22.08px, 36.13px, 22.29px, 37.13px;
+  border-radius: 10px;
+  background-color: #ffff;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+#computers .wrapper .list .list_item h6 {
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgba(30, 30, 30, 1);
+  margin-top: 10px;
+}
+
+#computers .wrapper .list .list_item p {
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgba(108, 117, 125, 1);
+  margin-top: 10px;
+}
+
+#computers .wrapper .list .list_item:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
