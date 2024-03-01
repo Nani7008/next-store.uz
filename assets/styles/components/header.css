@@ -7,6 +7,10 @@ header {
   background-color: #fff;
 }
 
+#icon-menu{
+  transform: translateY(3px);
+}
+
 header .header-top {
   display: flex;
   justify-content: space-between;

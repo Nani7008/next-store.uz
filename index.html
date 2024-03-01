@@ -45,8 +45,10 @@
 
           <ul class="nav__list">
             <li class="nav__list--item">
-              <button>
-                <i class="bx bx-menu"></i>
+              <button id="toggle">
+                <span id="icon-menu">
+                  <i class="bx bx-menu"></i>
+                </span>
                 <span>KATALOG</span>
               </button>
             </li>
@@ -68,16 +70,116 @@
                 <a href="#"><i class="bx bx-cart"></i></a>
               </button>
               <button>
-                <i class="bx bx-user"></i>
+                <span id="icon-user">
+                  <i class="bx bx-user"></i>
+                </span>
               </button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="container relative">
+      <dliv id="menu-panel" class="menu-panel hide-menu">
+        <ul class="menu-grid">
+          <li class="menu-grid-item">
+            <ul>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-grid-item">
+            <ul>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-grid-item">
+            <ul>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-grid-item">
+            <ul>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-grid-item">
+            <ul>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+
+              <li><a href="#">lorem ipsum dolor</a></li>
+              <li><a href="#">lorem ipsum dolor</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <!-- ============================= HEADER END ========================== -->
 
     <main>
+      <!-- Popup window -->
+
+      <div id="login" class="login" >
+        <div class="login-wrapper">
+          <h3>Hisobga kirish uchun</h3>
+          <button>Kirish</button>
+          <h4>Yoki</h4>
+
+          <button>Ro`yhatdan o`tish</button>
+        </div>
+      </div>
+
       <!-- Intro section starts -->
       <section id="intro">
         <div class="container">
@@ -896,6 +998,7 @@
         </div>
       </div>
     </footer>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -918,5 +1021,8 @@
         },
       });
     </script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/popup.js"></script>
+    
   </body>
 </html>
