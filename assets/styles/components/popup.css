@@ -22,6 +22,7 @@
   background-color: #ffff;
   display: grid;
   place-content: center;
+  position: relative;
 }
 
 .login-wrapper button {
@@ -40,7 +41,13 @@
   margin-top: 12px;
   margin-bottom: 12px;
   cursor: pointer;
-  color: var(--bg-gradient-white);
+  background-image: var(--bg-gradient-dark);
+
+ 
+  
+
+
+
 }
 
 .login-wrapper button:hover {
@@ -70,4 +77,11 @@
   line-height: 17px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.login-wrapper #close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
 }

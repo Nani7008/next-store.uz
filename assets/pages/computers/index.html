@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kompyuter va notebooklar</title>
+    <title>Nextstore.uz Internet do'koni!</title>
     <!-- ------ Favicons ------- -->
     <link rel="icon" href="./public/Logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <!-- -----  Main.css ---------- -->
     <link rel="stylesheet" href="../../../main.css" />
-    <!-- computers css -->
+    <!-- Computer css -->
     <link rel="stylesheet" href="./computers.css" />
     <!-- Link Swiper's CSS -->
     <link
@@ -16,6 +20,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
+
   <body>
     <!-- ============================= HEADER START ========================== -->
     <header>
@@ -36,7 +41,7 @@
               <img src="../../icons/menu-regular-84.png" alt="menu" />
             </button>
 
-            <a href="#" class="nav__logo">
+            <a href="../../../" class="nav__logo">
               <img
                 src="../../../public/Logo.svg"
                 alt="Nextstore.uz Internet do'koni"
@@ -46,8 +51,10 @@
 
           <ul class="nav__list">
             <li class="nav__list--item">
-              <button>
-                <i class="bx bx-menu"></i>
+              <button id="toggle">
+                <span id="icon-menu">
+                  <i class="bx bx-menu"></i>
+                </span>
                 <span>KATALOG</span>
               </button>
             </li>
@@ -69,16 +76,171 @@
                 <a href="#"><i class="bx bx-cart"></i></a>
               </button>
               <button>
-                <i class="bx bx-user"></i>
+                <span id="icon-user">
+                  <i class="bx bx-user"></i>
+                </span>
               </button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="container relative">
+      <div id="menu-panel" class="menu-panel hide-menu">
+        <ul class="menu-grid">
+          <li class="menu-grid-item">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="../../icons/fire.png" alt="" /> Aksiya</a
+                >
+              </li>
+              <li><a href="#">Kompyuterlar va notebooklar</a></li>
+              <li><a href="#">Telefonlar</a></li>
+              <li><a href="#">Maishiy texnika</a></li>
+              <li><a href="#">Erkaklar uchun kiyim</a></li>
+              <li><a href="#">Ayollar uchun kiyimlar</a></li>
+              <li><a href="#">Bolalar uchun </a></li>
+              <li><a href="#">Avtomobil mahsulotlari</a></li>
+              <li><a href="#">Go'zallik va so'glik</a></li>
+              <li><a href="#">Sport va o'yin-kulgi</a></li>
+              <li><a href="#">Uy hayvonlari uchun tovarlar</a></li>
+              <li><a href="#">Xobbi va ijodkorlik</a></li>
+              <li><a href="#">Kantselyariya buyumlari</a></li>
+              <li><a href="#">Maishiy kimyo</a></li>
+              <li><a href="#">Sport va o'yin-kulgilar</a></li>
+              <li><a href="#">Uy hayvonlari uchun tovarlar</a></li>
+              <li><a href="#">Aksesuarlar</a></li>
+            </ul>
+          </li>
+          <li class="menu-grid-item-right">
+            <ul>
+              <span class="brands"><h4>Brendlar</h4></span>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Vivo</a></li>
+              <li><a href="#">Tecno</a></li>
+              <li><a href="#">Realme</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Artel</a></li>
+              <li><a href="#">Nokia</a></li>
+              <li><a href="#">OnePlus</a></li>
+              <li><a href="#">ZTE</a></li>
+              <li><a href="#">Blackview</a></li>
+              <li><a href="#">Oppo</a></li>
+              <li><a href="#">Ergo</a></li>
+              <li><a href="#">BQ</a></li>
+              <li><a href="#">Huawei</a></li>
+              <li><a href="#">Alcatel</a></li>
+              <li><a href="#">TCL</a></li>
+              <li><a href="#">Inoi</a></li>
+              <li><a href="#" class="active-link">Ko’proq</a></li>
+            </ul>
+          </li>
+          <div class="phone-brands">
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Samsung Brendi</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Huawei</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Samsung Brendi</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Huawei</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Eng ommabop</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Eng arzonlari</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Huawei mobile</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Huawei mobile</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-grid-item-right">
+              <ul>
+                <span class="brands"><h4>Huawei mobile</h4></span>
+                <li><a href="#">S serialar</a></li>
+                <li><a href="#">A serialar</a></li>
+                <li><a href="#">Note serilar</a></li>
+                <li><a href="#">M serialar</a></li>
+              </ul>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
     <!-- ============================= HEADER END ========================== -->
 
-      
+    <!-- Popup window -->
+
+    <div id="login" class="login">
+      <div class="login-wrapper">
+        <img src="../../icons/close.png" alt="close" id="close" />
+        <h3>Hisobga kirish uchun</h3>
+        <button>Kirish</button>
+        <h4>Yoki</h4>
+
+        <button>Ro`yhatdan o`tish</button>
+      </div>
+    </div>
 
     <!-- Intro section starts -->
     <section id="intro">
@@ -467,5 +629,7 @@
         },
       });
     </script>
+    <script src="../../js/index.js"></script>
+    <script src="../../js/popup.js"></script>
   </body>
 </html>
