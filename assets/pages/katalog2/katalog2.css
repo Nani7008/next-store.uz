@@ -1,6 +1,27 @@
-#laptops .wrapper {
+#laptops .wrapper .context {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between;
     align-items: center;
+     */
+     margin-top: 60px;
+     gap: 20px;
+    
+   
+}
+
+#laptops .wrapper .notebooklar  {
+    
+    font-family: Nuckle;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+       
+}
+
+#laptops {
+    padding-bottom: 50px;
 }
