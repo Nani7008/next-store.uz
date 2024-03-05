@@ -304,10 +304,10 @@
     <!-- Filter section starts -->
     <section id="filter">
       <div class="container">
+        <a href="#" class="notebooklar"
+          >Nextstore/Kompyuterlar va notebooklar/ Laptop Notebooklar
+        </a>
         <div class="wrapper">
-          <a href="#" class="notebooklar"
-            >Nextstore/Kompyuterlar va notebooklar/ Laptop Notebooklar</a
-          >
           <div class="wrapper__left">
             <ul class="wrapper__left__first">
               <h5>Katalog</h5>
@@ -346,7 +346,7 @@
                 <a href="#">Shaxsiy kompyuterlar uchun keyslar</a>
               </li>
               <li>
-                <a href="#">Laptop Notebooklar</a>
+                <a href="#" class="active-link">Laptop Notebooklar</a>
               </li>
               <li>
                 <a href="#">Shaxsiy komyuter uchun manitorlar</a>
@@ -384,25 +384,20 @@
                 <img src="../../icons/Vector.png" alt="vector" />
                 <input type="number" placeholder="1000 000" />
               </div>
-              <input type="range" />
+              <input type="range" class="range" />
             </div>
-            <div class="wrapper__left__third">
+            <div class="wrapper__left__fourth">
               <h4>Brend bo’yicha</h4>
-              <div class="wrapper__left__third--search">
+              <div class="wrapper__left__fourth--search">
                 <input type="text" placeholder="Qidirish" />
                 <button>
                   <i class="bx bx-search"></i>
                 </button>
               </div>
             </div>
-            <ul class="wrapper__left__fourth">
+            <ul class="wrapper__left__fifth">
               <li>
-                <input
-                  type="checkbox"
-                  id="vehicle1"
-                  name="vehicle1"
-                  value="Bike"
-                />
+                <input type="checkbox" />
                 <label for="phone"> Apple</label>
                 <p>23145</p>
               </li>
@@ -433,26 +428,30 @@
               </li>
             </ul>
 
-            <ul class="wrapper__left__fifth">
-              <li>
+            <ul class="wrapper__left__sixth">
+              <li><p>
                 Bo’lib to’lash
+              </p>
                 <div class="checkbox-apple">
-                  <input class="yep" id="check-apple" type="checkbox" />
-                  <label for="check-apple"></label>
+                  <input class="yep" id="first" type="checkbox" />
+                  <label for="first"></label>
                 </div>
               </li>
               <li>
-                Bo’lib to’lash
+                <p>
+                Yangi mahsulotlar
+                </p>
                 <div class="checkbox-apple">
-                  <input class="yep" id="check-apple" type="checkbox" />
-                  <label for="check-apple"></label>
+                  <input class="yep" id="second" type="checkbox" />
+                  <label for="second"></label>
                 </div>
               </li>
-              <li>
-                Bo’lib to’lash
+              <li><p>
+                Chegirmali mahsulot
+                </p>
                 <div class="checkbox-apple">
-                  <input class="yep" id="check-apple" type="checkbox" />
-                  <label for="check-apple"></label>
+                  <input class="yep" id="third" type="checkbox" />
+                  <label for="third"></label>
                 </div>
               </li>
             </ul>
@@ -460,9 +459,7 @@
               <li>
                 <input
                   type="checkbox"
-                  id="vehicle1"
-                  name="vehicle1"
-                  value="Bike"
+                  
                 />
                 <label for="phone">NextStore nasiya orqali</label>
                 <p>23145</p>
@@ -514,7 +511,7 @@
                   />
                 </button>
               </div>
-              <select name="cars" id="cars">
+              <select >
                 <option value="Barchas">Barchasi</option>
                 <option value="yb">Yetkazib berish</option>
                 <option value="ko">Kreditga olish</option>
