@@ -492,18 +492,20 @@ background-image: var(--bg-gradient-dark);
     #filter .wrapper {
         flex-direction: column;
         justify-content: center;
+
+      }
+      #filter .wrapper .wrapper__right  .box {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-column-gap: 20px;
+        justify-content: flex-start;
+        align-items: center;
+      
+      }
+      #filter .wrapper .wrapper__right .wrapper__right__filters {
+         display: none;
+  }
     }
     
      
-    }
-    #filter .wrapper .wrapper__right  .box {
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
-      grid-column-gap: 20px;
-      justify-content: flex-start;
-      align-items: center;
-    
-    }
-    #filter .wrapper .wrapper__right .wrapper__right__filters {
-       display: none;
-}
+   
