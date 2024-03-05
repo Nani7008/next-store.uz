@@ -722,7 +722,7 @@
   font-size: 22px;
 }
 
-#laptops .wrapper .context .wrapper__right .box {
+ .wrapper__right .box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -730,9 +730,9 @@
   grid-row-gap: 17px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list {
+.box .box_list {
   width: 230px;
-  height: 440px;
+  height: 390px;
   padding: 10px;
   border-radius: 10px;
   background-color: #fff;
@@ -741,25 +741,25 @@
   cursor: pointer;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list:hover {
+ .box .box_list:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list .box_list_top {
+.wrapper__right .box .box_list .box_list_top {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list .bx-heart {
+.wrapper__right .box .box_list .bx-heart {
   position: absolute;
   right: 20px;
   top: 20px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list h4 {
+.wrapper__right .box .box_list h4 {
   font-family: Nuckle;
   font-size: 18px;
   font-weight: 591;
@@ -768,7 +768,7 @@
   text-align: left;
   color: rgba(13, 99, 243, 1);
 }
-#laptops .wrapper .context .wrapper__right .box .box_list p {
+ .wrapper__right .box .box_list p {
   font-family: Nuckle;
   font-size: 14px;
   font-weight: 539;
@@ -779,7 +779,7 @@
   margin-top: 6px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list h6 {
+t .box .box_list h6 {
   font-family: Nuckle;
   font-size: 14px;
   font-weight: 539;
@@ -790,7 +790,7 @@
   margin-top: 53px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list .box_list_bot {
+ .box .box_list .box_list_bot {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -799,7 +799,7 @@
   margin-top: 25px;
 }
 
-#laptops .wrapper .context .wrapper__right .box .box_list .box_list_bot button {
+ .box .box_list .box_list_bot button {
   width: 130px;
   height: 40px;
   padding: 10px, 0px, 10px, 0px;
@@ -816,9 +816,7 @@
   cursor: pointer;
   border: none;
 }
-#laptops
-  .wrapper
-  .context
+
   .wrapper__right
   .box
   .box_list
