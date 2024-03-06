@@ -352,7 +352,7 @@
 }
 /* Description section ends */
 
-Shop section starts
+/* Shop section starts */
 
 #adshop .wrapper {
   background-color: #fff;
@@ -465,7 +465,7 @@ Shop section starts
 
 /* adshop css section ends */
 
-/* spec section starts 
+/* spec section starts  */
 #spec {
   padding-top: 60px;
 }
@@ -474,7 +474,7 @@ Shop section starts
   background-color: #fff;
   display: flex;
   flex-direction: column;
-
+  /* padding-left: 19px; */
 }
 
 #spec .wrapper h4 {
@@ -529,6 +529,4 @@ Shop section starts
     display: flex;
     flex-direction: column; 
        
-  } */
-
-  
+  }
