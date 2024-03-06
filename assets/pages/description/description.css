@@ -352,7 +352,7 @@
 }
 /* Description section ends */
 
-/* Shop section starts */
+Shop section starts
 
 #adshop .wrapper {
   background-color: #fff;
@@ -409,69 +409,126 @@
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 #adshop .wrapper__context .shop .shop__second__item {
-
-font-family: Nuckle;
-font-size: 16px;
-font-weight: 653;
-line-height: 19px;
-letter-spacing: 0.02em;
-text-align: left;
-color: rgba(30, 30, 30, 1);
-
-
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 653;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(30, 30, 30, 1);
 }
 
-
 #adshop .wrapper__context .shop .shop__third__item {
-
- 
-font-family: Nuckle;
-font-size: 16px;
-font-weight: 539;
-line-height: 19px;
-letter-spacing: 0.01em;
-text-align: left;
-color: rgba(30, 30, 30, 1);
-
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(30, 30, 30, 1);
 }
 
 #adshop .wrapper__context .shop .shop__fourth__item {
-
-font-family: Nuckle;
-font-size: 16px;
-font-weight: 539;
-line-height: 19px;
-letter-spacing: 0.01em;
-text-align: left;
-color: rgba(13, 99, 243, 1);
-
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(13, 99, 243, 1);
 }
 
 #adshop .wrapper__context .shop .shop__fourth__item span {
   color: rgba(44, 183, 8, 1) !important;
 }
 
-#adshop .wrapper__context .shop .shop__fifth__item button  {
-width: 200px;
-height: 40px;
-padding: 10px 20px 10px 20px;
-border-radius: 10px;
-gap: 10px;
-cursor: pointer;
-background-color: rgba(236, 244, 255, 1);
-color: rgba(13, 99, 243, 1);
-font-family: Nuckle;
-font-size: 16px;
-font-weight: 539;
-line-height: 19px;
-letter-spacing: 0.01em;
-text-align: center;
-border: none;
-
+#adshop .wrapper__context .shop .shop__fifth__item button {
+  width: 200px;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: rgba(236, 244, 255, 1);
+  color: rgba(13, 99, 243, 1);
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  border: none;
 }
 
 /* adshop css section ends */
+
+/* spec section starts 
+#spec {
+  padding-top: 60px;
+}
+
+#spec .wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#spec .wrapper h4 {
+  font-family: Nuckle;
+  font-size: 28px;
+  font-weight: 591;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(30, 30, 30, 1);
+  margin-top: 40px;
+}
+
+#spec .wrapper .box__lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+}
+
+#spec .wrapper .box__lists ul {
+  list-style-type: none;
+}
+
+#spec .wrapper .box__lists .spec__main {
+  
+  margin-top: 20px;
+  max-width: 581px;
+ max-height: 160px;
+}
+
+
+#spec .wrapper .box__lists .spec__main h5 {
+  font-family: Nuckle;
+  font-size: 18px;
+  font-weight: 591;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(30, 30, 30, 1);
+}
+
+#spec .wrapper .box__lists .spec__main .spec__main__list {
+  display: flex;
+  flex-direction: row;
+  gap: 268px;
+  }
+
+  #spec .wrapper .box__lists .spec__main .spec__main__list li {
+    display: flex;
+    flex-direction: column; 
+       
+  } */
+
+  
